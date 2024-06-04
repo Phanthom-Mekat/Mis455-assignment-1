@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    width: 80%;
+
     margin: auto;
     overflow: hidden;
 }
@@ -41,4 +41,14 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+}
+.spacexlogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 4px;
+    
+
+
+
 }
