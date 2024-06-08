@@ -244,13 +244,14 @@ footer nav a:hover{
     font-size: 20px;
     margin-left: 534px;
     font-family: 'Courier New', Courier, monospace;
-    color: aliceblue;
+    color: rgba(10, 33, 118, 0.777);
 }
 
 .stats-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 400px;
     justify-content: center;
-    align-items: flex-start;
     text-align: center;
     margin-bottom: 600px; 
 }
@@ -266,4 +267,3 @@ footer nav a:hover{
 }
 
 
-    
